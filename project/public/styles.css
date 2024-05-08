@@ -1,0 +1,87 @@
+/* Resetting default margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Setting background color and font family */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Centering the container vertically and horizontally */
+  .viewport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container for the game content */
+  .container {
+    text-align: center;
+  }
+  
+  /* Styling the title */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Scrollable view for the game */
+  .scroll-view {
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+  }
+  
+  /* Container for the questions */
+  .questions-container {
+    padding-right: 20px; /* Add padding to prevent content from being obscured by scrollbar */
+  }
+  
+  /* Styling for the individual questions */
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .question input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the submit button */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the result display */
+  #result {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #result p {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
